@@ -1,220 +1,241 @@
+@import url(https://fonts.googleapis.com/css?family=Klavika);
 
 * {
-	cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur116.cur), auto !important;
-
-}
-#menu
-{
-	/*vertical-align: top;*/
-	background-color: #3b5998;
-	height: 60px;
-	width: 100%;
-	position: fixed;
-}
-#menu ul{
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: space-between;
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur116.cur), auto !important;
 }
 
-#menu li {
-	display: flex;
-	align-items: center;
-	padding: 0 1rem;
+#menu {
+    background-color: #3b5998;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+
 }
-p{
-	font-family: Klavika;
-	margin: 10px 100px;
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
-h2{
-	color: #fff;
-	background-color: #3b5998;
-	margin: 10px 100px;
-	text-align: center;
+
+#menu a:hover {
+    background-color: #7a9ff1;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+p {
+    font-family: Klavika;
+    margin: 10px 100px;
+}
+
+h2 {
+    color: #fff;
+    background-color: #3b5998;
+    margin: 10px 100px;
+    text-align: center;
 
 
 }
-.navBar .li a{
-	font-size: 500px;
-}
+
 #menu a {
-	color: #fff;
-	text-decoration: none;
-	font-weight: 600;
-	font-size: 16px;
-	font-family: Klavika;
-	/*letter-spacing: 0.5px;*/
-	/*display: flex;*/
-	position:relative;
-	top:20px;
-	align-items: center;
-	height: 100%;
-	transition: all 0.2s ease-in-out;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Klavika;
+    position: relative;
+    top: 20px;
+    align-items: center;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
 }
+
 .subtitle fancy .AboutMeText {
-	/*position:relative;*/
-
-	margin: 10px 10px 10px 10px;
-	padding-right: 10px;
+    margin: 10px 10px 10px 10px;
+    padding-right: 10px;
 
 }
 
-.row img{
-	height: 300px;
-	width: auto;
-	/*left: 200px;*/
-	margin: 10px 250px 10px;
+.row img {
+    height: 300px;
+    width: auto;
+    margin: 10px 250px 10px;
 }
 
-.logo{
-	height: 60px;
-	width: auto;
-	left: 200px;
-	/*margin: 10px 250px 10px;*/
+.logo {
+    height: 60px;
+    width: auto;
+    left: 200px;
+    /*margin: 10px 250px 10px;*/
 }
 
 .subTitels {
-	line-height: 0.6;
-	text-align: center;
-	/*background-color: #3b5998;*/
+    line-height: 0.6;
+    text-align: center;
+    /*background-color: #3b5998;*/
 
 }
-.subtitle fancy{
-	/*font: small-caps bold 224px/10 sans-serif;*/
-	font: italic small-caps bold 16px/2 cursive;
+
+.subtitle fancy {
+    /*font: small-caps bold 224px/10 sans-serif;*/
+    font: italic small-caps bold 16px/2 cursive;
 }
+
 .subTitels span {
-	display: inline-block;
-	position: relative;
-	/*font: small-caps bold 24px/1 sans-serif;*/
-	font-size: 35px;
-	margin: 10px;
+    display: inline-block;
+    position: relative;
+    /*font: small-caps bold 24px/1 sans-serif;*/
+    font-size: 35px;
+    margin: 10px;
 }
-.subtitle subTitels{
+
+.subtitle subTitels {
 
 }
+
 .subTitels span:before,
 .subTitels span:after {
-	content: "";
-	position: absolute;
-	height: 5px;
-	border-bottom: 8px solid #3b5998;
-	border-top: 8px solid #3b5998;
-	top: 0;
-	width: 600px;
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 8px solid #3b5998;
+    border-top: 8px solid #3b5998;
+    top: 0;
+    width: 600px;
 }
 
 .subTitels span:before {
-	right: 100%;
-	margin-right: 15px;
+    right: 100%;
+    margin-right: 15px;
 }
 
 .subTitels span:after {
-	left: 100%;
-	margin-left: 15px;
+    left: 100%;
+    margin-left: 15px;
 }
+
 .column {
-	float: left;
-	width: 33.33%;
-	padding: 10px;
-	margin: 10px 10px 10px 10px;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 .row::after {
-	content: "";
-	clear: both;
-	display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /*------------------------------------------*/
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Style inputs */
 input[type=text], select, textarea {
-	width: 100%;
-	padding: 12px;
-	border: 1px solid #7a9ff1;
-	margin-top: 6px;
-	margin-bottom: 16px;
-	resize: vertical;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #7a9ff1;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
 input[type=submit] {
-	background-color: #7a9ff1;
-	font-family:Klavika bold;
-	font-size: 20px;
-	color: #ffffff;
-	padding: 12px 320px;
-	margin: 10px 10px 20px;
-	border: none;
-	cursor: pointer;
+    background-color: #7a9ff1;
+    font-family: Klavika bold;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 12px 320px;
+    margin: 10px 10px 20px;
+    border: none;
+    cursor: pointer;
 }
 
 input[type=submit]:hover {
-	background-color: #7a9ff1;
+    background-color: #7a9ff1;
 }
 
 /* Style the container/contact section */
 .container {
-	border-radius: 5px;
-	background-color: #7a9ff1;
-	padding: 10px;
+    border-radius: 5px;
+    background-color: #7a9ff1;
+    padding: 10px;
 }
 
 /* Create two columns that float next to eachother */
 .columns {
-	float: left;
-	font-size: 20px;
-	width: 50%;
-	margin-top: 6px;
-	padding: 20px;
-	margin-left: 500px;
+    float: left;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    margin-left: 500px;
 }
 
 /* Clear floats after the columns */
 .row:after {
-	content: "";
-	display: table;
-	clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-	.column, input[type=submit] {
-		width: 100%;
-		margin-top: 0;
-	}
+    .column, button[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
 }
+
 /*---------------------------------*/
+columns .button[type=submit] {
+    background: #3b5998;
+}
+
 table.QATable {
-	border: 1px solid #7a9ff1;
-	background-color: #99aee3;
-	width: 60%;
-	margin-left: 250px;
+    border: 1px solid #7a9ff1;
+    background-color: #99aee3;
+    width: 60%;
+    margin-left: 250px;
 
 }
 
 table.QATable td,
 table.QATable th {
-	border: 2px solid #ffffff;
-	padding: 10px 10px;
+    border: 2px solid #ffffff;
+    padding: 10px 10px;
 }
 
 table.QATable tbody td {
-	font-family: "Fira Code", monospace;
-	font-size: 13px;
+    font-family: "Fira Code", monospace;
+    font-size: 13px;
 }
 
 .Ucase {
-	font-family: "Fira Code", monospace;
-	font-size: 15px;
+    font-family: "Fira Code", monospace;
+    font-size: 15px;
 }
 
-.column1{
-	position: relative;
-	left: 600px;
+.column1 {
+    position: relative;
+    left: 600px;
+}
+
+.emoji-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.emoji {
+    font-size: 48px;
+    padding: 10px;
 }
